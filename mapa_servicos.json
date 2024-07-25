@@ -1,0 +1,23 @@
+{
+    "internos": {
+        "base": [
+            {
+                "funcao":"index", "rota":"/",
+                "nome_servico":"Pág. Inicial",
+                "parametros":{ "methods":["GET","POST"] }
+            }
+        ],
+        "usuarios": [
+            {
+                "funcao":"user", "rota":"/user/",
+                "nome_servico":"Pág. de Visualização de Usuários",
+                "parametros":{ "methods":["GET","POST"] }
+            },
+            {
+                "funcao":"user_param", "rota":"/user/<username>",
+                "nome_servico":"Pág. de Visualização de Usuários",
+                "parametros":{ "methods":["GET","POST"] }
+            }
+        ]
+    }
+}
